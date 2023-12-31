@@ -2,6 +2,8 @@ import { Outlet } from "react-router-dom";
 import Footer from "../Footer/Footer";
 
 const MainLayout = () => {
+
+    // const navigation  = useNavigation();
     return (
         <div>
             <section className="flex justify-between px-10 py-7 shadow-md">
