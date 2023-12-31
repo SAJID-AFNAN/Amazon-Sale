@@ -6,6 +6,7 @@ import DashBoard from '../Components/DashBoard/DashBoard';
 import EachProduct from '../Components/EachProduct/EachProduct';
 import SingleDashBoard from '../Components/SingleDashBoard/SingleDashBoard';
 import Profile from '../Components/Profile/Profile';
+import EditProfile from '../Components/EditProfile/EditProfile';
 
 const myCreatedRoute = createBrowserRouter([
     {
@@ -37,6 +38,10 @@ const myCreatedRoute = createBrowserRouter([
                     {
                         path: "/dashboard/profile",
                         element: <Profile></Profile>
+                    },
+                    {
+                        path: "/dashboard/editprofile",
+                        element: <EditProfile></EditProfile>
                     }
                 ]
             }
